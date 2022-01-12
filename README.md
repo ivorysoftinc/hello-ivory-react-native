@@ -16,18 +16,18 @@ Clone the repository and run the following commands
 
 ## Project Structure
 
-All sources are contained in the `📁 src`
-
-`📁 src`
-┣ `📁 assets` contains images, icons, fonts, and other assets
-┣ `📂 components` contains all reusable components
-┃ ┣ `📂 Button` example of a component
-┃ ┃ ┗ `📜 index.tsx` contains the `Button` component implementation
-┃ ┗ `📜 index.tsx` contains exports all of the components
-┣ `📂 navigation` contains navigation stacks and related items
-┃ ┗ `📜 index.tsx` root navigation stack
-┣ `📂 screens` contains screen components
-┃ ┣ `📂 Initial` example of a screen
-┃ ┃ ┗ `📜 index.tsx` contains the `Initial` screen implementation
-┃ ┗ `📜 index.tsx` contains exports all of the screens
-┗ `📂 utils` contains utility functions
+<pre>
+📁 <b>src</b> - <i>contains JS-side sources</i>
+┣ 📁 <b>assets</b> - <i>contains images, icons, fonts, and other assets</i>
+┣ 📂 <b>components</b> - <i>contains all reusable components</i>
+┃ ┣ 📂 <b>Button</b> - <i>example of a component</i>
+┃ ┃ ┗ 📜 <b>index.tsx</b> - <i>contains the `Button` component implementation</i>
+┃ ┗ 📜 <b>index.tsx</b> - <i>contains exports of all components</i>
+┣ 📂 <b>navigation</b> - <i>contains navigation stacks and related items</i>
+┃ ┗ 📜 <b>index.tsx</b> - <i>root navigation stack</i>
+┣ 📂 <b>screens</b> - <i>contains screen components</i>
+┃ ┣ 📂 <b>Initial</b> - <i>example of a screen</i>
+┃ ┃ ┗ 📜 <b>index.tsx</b> - <i>contains the `Initial` screen implementation</i>
+┃ ┗ 📜 <b>index.tsx</b> - <i>contains exports of all screens</i>
+┗ 📂 <b>utils</b> - <i>contains utility functions</i>
+</pre>
