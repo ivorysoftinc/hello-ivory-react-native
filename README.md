@@ -31,3 +31,25 @@ Clone the repository and run the following commands
 ┃ ┗ 📜 <b>index.tsx</b> - <i>contains exports of all screens</i>
 ┗ 📂 <b>utils</b> - <i>contains utility functions</i>
 </pre>
+
+## Application
+
+| Initial Screen               | Team Screen               | Character Screen               |
+| ---------------------------- | ------------------------- | ------------------------------ |
+| ![](screenshots/initial.png) | ![](screenshots/team.png) | ![](screenshots/character.png) |
+
+#### Initial Screen
+
+User should be able to choose an avatar from the list of emojis and navigate to the next screen. The app remembers the selection but does not interact with the server.
+
+#### Taeam Screen
+
+User should be able to select one of the three available teams, enter his name, select a number and go to the next screen. The app sends data to the server.
+
+#### Character Screen
+
+User can see the title of the screen with his name, team and number. User should be able to choose an unlimited number of characteristics. The app sends data to the server.
+
+## Links
+
+App layouts on [Figma](https://www.figma.com/file/qzNAwyn3we2jN8vfqViY9y/Test)
